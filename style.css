@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #D4B68A;
+    --button-color: #64748b;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    height: 20vh;
+    width: 20vh;
+}
+
+#input-text {
+    width: 60%;
+    margin: 1rem;
+    height: 12vh;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+#btn-translate {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    background-color: var(--button-color);
+    color: white;
+}
+
+#btn-translate:hover {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#output-text {
+    width: 60%;
+    margin: 1rem;
+    height: 12vh;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#footer {
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    padding: 2rem;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    padding: 2rem;
+}
